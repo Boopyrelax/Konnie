@@ -1,0 +1,23 @@
+/* Basic style */
+body 
+{
+    background: url('img/fond.png') repeat;
+}
+.jumbo-fond 
+{
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Images */
+img 
+{
+    width: 100%;
+}
+
+/*Footer*/
+footer
+{
+    padding-bottom:15px;
+    padding-top:15px;
+    Background-color:white;
+}
