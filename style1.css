@@ -1,11 +1,18 @@
 /* Basic style */
 body 
 {
-    background: url('img/fond.png') repeat;
+    /*background: url('img/fond.png') repeat;*/
+    background-color:grey;
 }
 .jumbo-fond 
 {
     background-color: rgba(255,255,255,0.8);
+}
+.jumbotron h1
+{
+        margin-bottom:10px;
+        margin-top:5px;
+        
 }
 
 /* Images */
@@ -17,7 +24,8 @@ img
 /*Footer*/
 footer
 {
-    padding-bottom:15px;
+    padding-bottom:0px;
     padding-top:15px;
     Background-color:white;
+    font-size:10px;
 }
