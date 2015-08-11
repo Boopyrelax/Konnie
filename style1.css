@@ -7,12 +7,27 @@ body
 .jumbo-fond 
 {
     background-color: rgba(255,255,255,0.8);
+    font-size:10px;
+    text-align:justify;
 }
+
+.jumbo-fond a
+{
+    color: black;
+    font-size:10px;
+}
+
 .jumbotron h1
 {
         margin-bottom:10px;
         margin-top:5px;
         
+}
+.resume
+{
+        font-size:10px;
+        color :black;
+        text-decoration:underline;
 }
 
 /* Images */

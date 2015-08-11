@@ -43,10 +43,10 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a href="index.html#Home">Home</a></li>
-                        <li><a href="index.html#About">Bio</a></li>
-                        <li><a href="index.html#Artist">Artist</a></li>
-                        <li><a href="index.html#News">News</a></li>
+                        <li><a class="defil" href="index.html#Home">Home</a></li>
+                        <li><a class="defil" href="index.html#About">Bio</a></li>
+                        <li><a class="defil" href="index.html#Artist">Artist</a></li>
+                        <li><a href="news.html">News</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,7 +64,7 @@
       </div>
 
       <div class="jumbo-fond jumbotron container row" id="About">
-          <h1 class="text-center">About me</h1>
+          <h1 class="text-center">Biography</h1>
         
             <!-- Caroussel
         ================================================== -->
@@ -110,7 +110,13 @@
             </div>
         </div>
             <div class="col-sm-12 col-md-8 col-lg-8">
-                <p>Konnie Metaxa (born Konstantina Pantazis) is born the blablabla</p>
+                <p>Konnie Metaxa (born Konstantina Pantazi) is born the 10th of February 1991 at Athen. She is the daughter of Lefteris Pantazis, a famous Greek singer, and 
+                Zoza Metaxa a Greek actress.
+                <br />Surrounded by arts her whole life, it is at the young age of X that she knew it would be her profession and beyond that: her passion.
+                <br/>After the international school of X, Konnie went to achieved a BFA Acting at the University of Miami. She had the chance to work with amazing professional 
+                artists who let her the opportunity to be a part of major shows search as "King Lear" at the Ring theater or "The house of Bernarda Alba" at the Adrienne Archt Center.
+                <br />Konstantina chose to use her Mother name as her own artist name to show that her succes is hers. Konnie Metaxa carrier is just getting started, and we can't wait to see what will come next...
+                </p>
             </div>
         
       </div>
@@ -118,12 +124,20 @@
       <div class=" jumbo-fond jumbotron container row" id="Artist">
         <h1 class="text-center">The Artist</h1>
             <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p>If you want to learn more about Konnie's carrier, you can download her resume by clicking <a href="img/resume.pdf" target="_blank" class="resume">here</a>. 
+                    Or you can learn and see all her achievments by choosing one of the three category below. Good visit.</p>
+                </div>
+            </div>
+            
+            <div class="row">
                 <a href="theater.html">
                 <div class="col-md-4 text-center">
                     <p><img src="img/theatre.png" alt="theatre" class="lg-art"/></p>
                     <h2>Theater</h2>
                         <p>
-                            Find a quote for this part
+                            "All the world's a stage" - William SHAKESPEARE<br />
+                            <br /> Click here to see in which theatre acts Konnie plays in and look some pictures of the shows...
                         </p>
                 </div>
                 </a>
@@ -133,7 +147,8 @@
                     <p><img src="img/music.png" alt="music" class="lg-art"/></p>
                     <h2>Music</h2>
                     <p>
-                        Find a quote for this part
+                        "Without music, life would be a mistake" - Friedrich NIETZSCHEr<br />
+                        <br /> Follow this link to ear Konnie's songs but also photos or videos of the musicals she was in... 
                     </p>
                 </div>
                 </a>
@@ -143,20 +158,13 @@
                     <p><img src="img/tv.png" alt="tv" class="lg-art"/></p>
                     <h2>Television</h2>
                     <p>
-                        Find a quote for this part
+                        "I love acting. It is so much more real than life." - Oscar WILDE <br />
+                        <br />Go there if you want to know more about Konnie on TV shows...
                     </p>
                 </div>
                 </a>
             </div>
       </div>
-
-        <div class="jumbo-fond jumbotron container row" id="News">
-            <h1 class="text-center">News</h1>
-            <p>
-                blablabla
-                <img src="#" alt="fake"/>
-            </p>
-        </div>
 
     <!-- Footer
     ================================================== -->
@@ -204,7 +212,7 @@
     <script>
       // Scrollspy fluide
       $(function () {
-        $('header a').on('click', function(e) {
+        $('header .defil').on('click', function(e) {
           e.preventDefault();
           var hash = this.hash;
           $('html, body').animate({
